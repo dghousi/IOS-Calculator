@@ -42,8 +42,8 @@
                                 </subviews>
                                 <animations/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RYO-H5-Pux">
-                                <rect key="frame" x="202" y="210" width="198" height="315"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="RYO-H5-Pux">
+                                <rect key="frame" x="202" y="210" width="198" height="318"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="MYY-VC-NtR">
                                         <rect key="frame" x="0.0" y="0.0" width="198" height="55"/>
@@ -88,7 +88,7 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="fng-JC-qD3">
-                                        <rect key="frame" x="0.0" y="65" width="198" height="55"/>
+                                        <rect key="frame" x="0.0" y="59" width="198" height="55"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oea-zu-SwO">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="55"/>
@@ -130,7 +130,7 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Qjw-yr-Khc">
-                                        <rect key="frame" x="0.0" y="130" width="198" height="55"/>
+                                        <rect key="frame" x="0.0" y="118" width="198" height="55"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCQ-A0-Jad">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="55"/>
@@ -172,7 +172,7 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ii0-li-KaC">
-                                        <rect key="frame" x="0.0" y="195" width="198" height="55"/>
+                                        <rect key="frame" x="0.0" y="177" width="198" height="55"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAp-bK-mza">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="55"/>
@@ -214,7 +214,7 @@
                                         <animations/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="byO-g1-qK3">
-                                        <rect key="frame" x="0.0" y="260" width="198" height="55"/>
+                                        <rect key="frame" x="0.0" y="236" width="198" height="55"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrz-jw-Nss">
                                                 <rect key="frame" x="0.0" y="0.0" width="56" height="55"/>
@@ -250,6 +250,26 @@
                                                 <state key="normal" image="equal"/>
                                                 <connections>
                                                     <action selector="onEqualPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xzr-Pf-0JH"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Bp1-qR-MxB">
+                                        <rect key="frame" x="0.0" y="295" width="198" height="23"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t02-b5-QmY">
+                                                <rect key="frame" x="0.0" y="0.0" width="198" height="23"/>
+                                                <animations/>
+                                                <color key="backgroundColor" red="0.95686274510000002" green="0.5345364293" blue="0.16008525409999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="23" id="RJY-ZV-nx1"/>
+                                                    <constraint firstAttribute="width" constant="56" id="bYy-tO-YKN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <state key="normal" title="Clear"/>
+                                                <connections>
+                                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UPM-Nj-hBg"/>
                                                 </connections>
                                             </button>
                                         </subviews>
